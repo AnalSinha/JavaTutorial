@@ -1,0 +1,21 @@
+In Java, an enum (enumeration) is a special data type
+used to define a fixed collection of constants. Enum 
+provide type safety and make code more readable and 
+maintainable by assigning meaningful names to a set of
+predefined values, such as days of the week, colors,
+or status codes.
+
+Key Characteristics
+
+    Type-Safe Constants: Unlike traditional integer or string constants, enum variables can only hold one of the predefined constant values,
+    preventing invalid assignments at compile time.
+    
+    Implicit Class Extension: All Java enums implicitly extend the abstract class java.lang.Enum. This means an enum cannot extend any other
+    class, but it can implement interfaces.
+    
+    Objects: Each enum constant is an object (instance) of the enum type itself.
+    
+    Modifiers: Enum constants are implicitly public, static, and final.
+    
+    No Explicit Instantiation: You cannot create enum instances using the new keyword. The instances are created automatically by the compiler 
+    when the enum is loaded. 
