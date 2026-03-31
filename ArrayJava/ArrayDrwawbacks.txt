@@ -1,0 +1,7 @@
+1--> Continuous memory allocation , so size is fixed once array is created.
+
+2--> For searching something, we have to traverse between the elements, so 
+it consumes a lot of time.
+
+3-->An array can contain only 1 type of datatype, not multiple datatypes in 
+same array.
